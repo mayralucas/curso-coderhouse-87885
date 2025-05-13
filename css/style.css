@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/*
+paleta de colores, copio los codigos de cada color aqui en el comentario
+
+#
+#
+#
+#
+
+tipografias, copio el codigo css de la web aqui, y luego lo aplico al texto que deseo
+
+
+*/
+
+
+header{
+    background-color: #1D3245;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header a img{
+    margin-left: 6.875rem;
+    width: 40%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar li{
+    margin-right: 8.4375rem;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+
+.section1{
+    background-color: #1D3245;
+    color: white;
+    
+}
+.section1 p{ 
+    color: white;
+}
+
+p{
+    color: black;
+    
+}
+
+img{
+    width: 100%;
+}
+.servicios0 img{
+    width: 10%;
+}
+
+
+.section-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,18.75rem);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+    "servicios0 servicios0 servicios0 servicios0"
+    "servicios1 servicios2 servicios3 servicios4"
+    ;
+    gap: 1.25rem;
+    margin-top: 9.375rem;
+}
+
+.section-grid .servicios0{
+    grid-area: servicios0;
+}
+.section-grid .servicios1{
+    grid-area: servicios1;
+    margin-top: .9375rem;
+}
+.section-grid .servicios2{
+    grid-area: servicios2;
+    margin-top: .9375rem;
+}
+.section-grid .servicios3{
+    grid-area: servicios3;
+    margin-top: .9375rem;
+}
+.section-grid .servicios4{
+    grid-area: servicios4;
+    margin-top: .9375rem;
+}
+
+
+.serviciosSection1{
+    display: flex;
+}
+.divServicios0{
+    margin-left: 1.875rem;
+    margin-top: .625rem;
+}
+.divServicios0 h1{
+    margin-left: 1.875rem;
+    margin-top: .625rem;
+    font-size: 1.6875rem;
+}
+.divServicios0 h2{
+    margin-left: 1.875rem;
+    margin-top: .625rem;
+    font-size: 1.25rem;
+}
+.divServicios0 p{
+    margin-left: 1.875rem;
+    margin-top: .125rem;
+}
+.servicios1 h1{
+    font-size: 1.25rem;
+    margin-top: .625rem;
+}
+.servicios2 h1{
+    font-size: 1.25rem;
+    margin-top: .625rem;
+}
+.servicios3 h1{
+    font-size: 1.25rem;
+    margin-top: .625rem;
+}
+.servicios4 h1{
+    font-size: 1.25rem;
+    margin-top: .625rem;
+}
+
+.servicios1 img:hover{
+    filter: drop-shadow(2px 2px 5px #1D3245);
+}
+.servicios2 img:hover{
+    filter: drop-shadow(2px 2px 5px #1D3245);
+}
+.servicios3 img:hover{
+    filter: drop-shadow(2px 2px 5px #1D3245);
+}
+.servicios4 img:hover{
+    filter: drop-shadow(2px 2px 5px #1D3245);
+}
+.section1{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,5rem) ;
+}
+
+.section1 h1{
+    grid-column:1/3;
+    grid-row:1/2 ;
+    align-self: center;
+    margin-left: 7.8125rem;
+    margin-top: 5rem;
+    margin-inline-end: 100%;
+    font-size: 1.5625rem;
+
+}
+
+.section1 p{
+    grid-column:1/3;
+    grid-row:2/3 ;
+    align-self: center;
+    margin-left: 7.8125rem;
+    margin-top: 1.25rem;
+    font-size: .625rem;
+    
+}
+
+.section1 .img1{
+    grid-column:1/6 ;
+    grid-row:3/6 ;
+    width: 87%;
+    justify-self: center;
+    align-self: center;
+    margin-top: 7.5rem;
+
+}
+
+.nuevoServicio{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.5rem;
+    margin-left: 7.8125rem;
+}
+.nuevoServicio img{
+    width: 8.4375rem;
+    margin-right: 8.4375rem;
+}
+.nuevoServicio h1{
+    font-size: 1.6875rem;
+    margin-top: 1.25rem;
+}
+
+.opcionesNewService{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6.25rem;
+}
+
+.opcion1{
+    display: flex;
+    margin-left: 8.125rem;
+
+}
+.opcion1 img{
+    width: 4.375rem;
+    margin-right: 1.25rem;
+    object-fit: contain;
+    
+}
+.opcion1 img:hover{
+    filter: drop-shadow(2px 2px 5px #1D3245);
+}
+.opcion2{
+    display: flex;
+    margin-right: 8.4375rem;
+}
+
+.opcion2 img{
+    width: 4.375rem;
+    margin-right: 1.25rem;
+    object-fit: contain;
+
+}
+.opcion2 img:hover{
+    filter: drop-shadow(2px 2px 5px #1D3245);
+}
+.divOpcion1 h1{
+    font-size: 1.6875rem;
+}
+.divOpcion2 h1{
+    font-size: 1.6875rem;
+}
+
+/*FOOTER*/
+.sectionFooter{
+    background-color: lightgray;
+    margin-top: 25rem;
+    padding: 3.125rem 8.75rem;
+}
+.divFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonFooter{
+    background-color: #1D3245;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+
+@media(max-width:1024px){
+
+    header{
+        justify-content: space-around;
+    }
+
+}
+
+@media(max-width:768px){
+
+
+
+}
+
+@media(max-width:320px){
+
+
+
+}
