@@ -47,6 +47,9 @@ ul{
     font-size: small;
 }
 
+main{
+        background-color: rgb(243, 243, 243);
+}
 
 .section1{
     background-color: #1D3245;
@@ -59,7 +62,7 @@ ul{
 
 p{
     color: black;
-    
+
 }
 
 img{
@@ -196,63 +199,144 @@ img{
 
 .nuevoServicio{
     display: flex;
+    background-color: white;
     justify-content: space-between;
     margin-top: 7.5rem;
-    margin-left: 7.8125rem;
+
 }
 .nuevoServicio img{
-    width: 8.4375rem;
+    width: 38.75rem;
     margin-right: 8.4375rem;
 }
 .nuevoServicio h1{
     font-size: 1.6875rem;
-    margin-top: 1.25rem;
+    margin-top: 7.5rem;
+    margin-left: 7.8125rem;
+}
+.nuevoServicio p{
+    margin-left: 7.8125rem;
+}
+.nuevoServicio button{
+    margin-left: 7.8125rem;
 }
 
-.opcionesNewService{
+.porQueElegirnos {
     display: flex;
+    background-color: rgb(243, 243, 243);
     justify-content: space-between;
-    margin-top: 6.25rem;
+    margin-top: 0;
+}
+.porQueElegirnos img{
+    width: 38.75rem;
+    margin-left: 8.4375rem;
+}
+.porQueElegirnos h1 {
+    font-size: 1.6875rem;
+    margin-top: 7.5rem;
+    margin-right: 7.8125rem;
+    margin-left: 1.5625rem;
 }
 
-.opcion1{
+.porQueElegirnos p {
+    margin-right: 7.8125rem;
+    margin-left: 1.5625rem;
+}
+
+.porQueElegirnos button {
+    margin-right: 7.8125rem;
+    margin-left: 1.5625rem;
+}
+
+.vehiculosCertificados{
     display: flex;
-    margin-left: 8.125rem;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 0
 
 }
-.opcion1 img{
-    width: 4.375rem;
-    margin-right: 1.25rem;
-    object-fit: contain;
-    
-}
-.opcion1 img:hover{
-    filter: drop-shadow(2px 2px 5px #1D3245);
-}
-.opcion2{
-    display: flex;
+.vehiculosCertificados img{
+    width: 38.75rem;
     margin-right: 8.4375rem;
 }
-
-.opcion2 img{
-    width: 4.375rem;
-    margin-right: 1.25rem;
-    object-fit: contain;
-
-}
-.opcion2 img:hover{
-    filter: drop-shadow(2px 2px 5px #1D3245);
-}
-.divOpcion1 h1{
+.vehiculosCertificados h1{
     font-size: 1.6875rem;
+    margin-top: 7.5rem;
+    margin-left: 7.8125rem;
 }
-.divOpcion2 h1{
+.vehiculosCertificados p {
+    margin-left: 7.8125rem;
+    margin-right: 1.5625rem;
+}
+.vehiculosCertificados button{
+    margin-left: 7.8125rem;
+}
+
+.equipamientosAdaptados {
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    justify-content: space-between;
+    margin-top: 0;
+}
+.equipamientosAdaptados img{
+    width: 38.75rem;
+    margin-left: 8.4375rem;
+}
+.equipamientosAdaptados h1 {
     font-size: 1.6875rem;
+    margin-top: 7.5rem;
+    margin-right: 7.8125rem;
+    margin-left: 1.5625rem;
 }
+
+.equipamientosAdaptados p {
+    margin-right: 7.8125rem;
+    margin-left: 1.5625rem;
+}
+
+.equipamientosAdaptados button {
+    margin-right: 7.8125rem;
+    margin-left: 1.5625rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*FOOTER*/
 .sectionFooter{
-    background-color: lightgray;
+    background-color: #1D3245;
+    color: white;
     margin-top: 25rem;
     padding: 3.125rem 8.75rem;
 }
@@ -260,13 +344,27 @@ img{
     display: flex;
     justify-content: space-between;
 }
+.formFooter p {
+    color: white;
+}
 .buttonFooter{
     background-color: #1D3245;
     color: white;
 }
+.finFooter p{
+    color: white;
+}
+.aFooter{
+    text-decoration: none;
+    color: white;
+}
 
 
+/*html servicios*/
+.imgFlota{
+    width: 300%;
 
+}
 
 
 
