@@ -298,6 +298,16 @@ img{
     margin-left: 1.5625rem;
 }
 
+.zonas{
+    background-image: url(../assets/img/bgzonas.jpg);
+    background-size: 100%;
+    padding: 9.375rem 9.375rem 9.375rem;
+}
+.zonas h1 {
+    font-size: 1.6875rem;
+}
+
+
 
 
 
