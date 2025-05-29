@@ -868,126 +868,176 @@ main{
 
 /*320*/
 
-@media(max-width:320px){
-    .section1{
+@media(max-width:320px) {
+    .section1 {
         display: none;
     }
-    header{
+
+    header {
         flex-direction: column;
     }
-    .navbar ul{
+
+    .navbar ul {
         flex-direction: column;
-        
+
     }
+
+    .section-grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 8.75rem);
+        grid-template-rows: auto;
+        justify-content: center;
+        align-content: center;
+        grid-template-areas:
+            "servicios0 servicios0"
+            "servicios1 servicios2"
+            "servicios3 servicios4"
+        ;
+        gap: .625rem;
+        margin-top: 3.125rem;
+    }
+
     .servicios0 img {
-    width: 20%;
-}
-.section-grid{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(2,12.5rem);
-    grid-template-rows: auto;
-    justify-content: center;
-    align-content: center;
-    grid-template-areas: 
-    "servicios0 servicios0"
-    "servicios1 servicios2"
-    "servicios3 servicios4"
-    ;
-    gap: 1.25rem;
-    margin-top: 3.125rem;
-}
+        width: 20%;
+        height: 50%;
+    }
+    .servicios0 h1 {
+        font-size: .875rem;
+        margin-left: 0;
+    }
+    .servicios0 h2 {
+        font-size: .75rem;
+        margin-left: 0;
+    }
+    .servicios0 p {
+        font-size: .625rem;
+        margin-left: 0;
+    }
 
-.nuevoServicio img{
-    width: 18.75rem;
-    margin-right: 5rem;
-}
-.nuevoServicio h1{
-    font-size: 1.25rem;
-    margin-top: 1.25rem;
-    margin-left: 5rem;
-    margin-right: 1.25rem;
-}
-.nuevoServicio p{
-    display: none;
-}
-.nuevoServicio button{
-    margin-left: 5rem;
-    margin-right: 1.25rem;
-}
+    .servicios1 h1{
+        font-size: .875rem;
+    }
+    .servicios1 p{
+        font-size: .625rem;
+    }
+        .servicios2 h1{
+        font-size: .875rem;
+    }
+    .servicios2 p{
+        font-size: .625rem;
+    }
+        .servicios3 h1{
+        font-size: .875rem;
+    }
+    .servicios3 p{
+        font-size: .625rem;
+    }
+        .servicios4 h1{
+        font-size: .875rem;
+    }
+    .servicios4 p{
+        font-size: .625rem;
+    }
 
-.porQueElegirnos img{
-    width: 18.75rem;
-    margin-left: 5rem;
-}
-.porQueElegirnos h1 {
-    font-size: 1.25rem;
-    margin-top: 1.25rem;
-    margin-right: 5rem;
-    margin-left: 1.25rem;
-}
 
-.porQueElegirnos p {
-    display: none;
-}
 
-.porQueElegirnos button {
-    margin-right: 7.8125rem;
-    margin-left: 1.25rem;
-}
 
-.vehiculosCertificados img{
-    width: 18.75rem;
-    margin-right: 5rem;
-}
-.vehiculosCertificados h1{
-    font-size: 1.25rem;
-    margin-top: 1.25rem;
-    margin-left: 5rem;
-    margin-right: 1.25rem;
-}
-.vehiculosCertificados p {
-    display: none;
-}
-.vehiculosCertificados button{
-    margin-left: 5rem;
-}
 
-.equipamientosAdaptados img{
-    width: 18.75rem;
-    margin-left: 5rem;
-}
-.equipamientosAdaptados h1 {
-    font-size: 1.25rem;
-    margin-top: 2.5rem;
-    margin-right: 5rem;
-    margin-left: 1.25rem;
-}
+    .nuevoServicio img {
+        width: 9.0625rem;
+        margin-right: .9375rem;
+    }
+    .nuevoServicio h1 {
+        font-size: .875rem;
+        margin-top: 1.25rem;
+        margin-left: .9375rem;
+    }
+    .nuevoServicio p {
+        display: none;
+    }
+    .nuevoServicio button {
+        margin-left: .9375rem;
+        font-size: .625rem;
 
-.equipamientosAdaptados p {
-    display: none;
-}
+    }
 
-.equipamientosAdaptados button {
-    margin-right: 7.8125rem;
-    margin-left: 1.25rem;
-}
+    .porQueElegirnos img {
+        width: 9.0625rem;
+        margin-left: .9375rem;
+    }
+    .porQueElegirnos h1 {
+        font-size: .875rem;
+        margin-top: .9375rem;
+        margin-left: .625rem;
 
-.zonas{
-    margin-top: .625rem;
-    padding: 5rem 5rem 5rem 5rem;
-}
-.zonas h1 {
-    font-size: 1.25rem;
-    margin-left: 0;
-}
-.zonas p {
-    font-size: .75rem;
-}
+    }
+    .porQueElegirnos p {
+        display: none;
+    }
+    .porQueElegirnos button {
+        font-size: .625rem;
+        margin-left: .625rem;
 
-.divFooterCompleta{
-    margin-left: 9.375rem;
-}
+    }
+
+    .vehiculosCertificados img {
+        width: 9.0625rem;
+        margin-right: .9375rem;
+    }
+    .vehiculosCertificados h1 {
+        font-size: .875rem;
+        margin-top: 1.25rem;
+        margin-left: .9375rem;
+        margin-right: .625rem;
+    }
+    .vehiculosCertificados p {
+        display: none;
+    }
+    .vehiculosCertificados button {
+        font-size: .625rem;
+        margin-left: .9375rem;
+    }
+
+    .equipamientosAdaptados img {
+        width: 9.0625rem;
+        margin-left: .9375rem;
+    }
+    .equipamientosAdaptados h1 {
+        font-size: .875rem;
+        margin-top: 1.25rem;
+        margin-left: .625rem;
+        margin-right: .9375rem;
+    }
+    .equipamientosAdaptados p {
+        display: none;
+    }
+    .equipamientosAdaptados button {
+        font-size: .625rem;
+        margin-left: .625rem;
+        margin-right: .9375rem;
+    }
+
+    .zonas {
+        margin-top: 1.875rem;
+        padding: 1.875rem 1.875rem 1.875rem 1.875rem;
+    }
+    .zonas h1 {
+        font-size: .875rem;
+        margin-left: 0;
+    }
+    .zonas p {
+        font-size: .625rem;
+    }
+        .zonas button{
+        font-size: .625rem;
+    }
+
+    .divSeccionFooter{
+        display: none;
+    }
+
+
 
 
 
