@@ -12,11 +12,11 @@
 
 <body>
     <header>
-        <!-- logo -->
+        <!-- logo 
         <a href="../index.html">
             <img src="../assets/img/LOGOMYMPNG.png" alt="logo del sitio">
-        </a>
-        <!-- barra de navegacion -->
+        </a>-->
+        <!-- barra de navegacion 
         <nav class="navbar">
             <ul>
                 <li><a href="../index.html">INICIO</a></li>
@@ -24,17 +24,35 @@
                 <li><a href="./nosotros.html">NOSOTROS</a></li>
                 <li><a href="./servicios.html">SERVICIOS</a></li>
             </ul>
-
+        </nav>-->
+    
+        <nav class="navbar navbar-expand-md navbar-expand-lg navBg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="../assets/img/LOGOMYMPNG.png" alt=""></a>
+                <button class="navbar-toggler buttonclass" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulNavbar">
+                        <li class="nav-item"><a aria-current="page" href="../index.html">INICIO</a></li>
+                        <li><a href="#">CONTACTOS</a></li>
+                        <li><a href="./nosotros.html">NOSOTROS</a></li>
+                        <li><a href="./servicios.html">SERVICIOS</a></li>
+                    </ul>
+    
+                </div>
+            </div>
         </nav>
-
+    
     </header>
     <main>
 
         <section class="sectionContactos">
             <div class="titulosContactos">
                 <h1>Contactate con nosotros</h1>
-                <p>Si deseas obtener información más detallada de nuestros servicios, o recibir una oferta de servicio
-                    personalizada que se adapte a tus necesidades, no dudes en contactarnos con gusto te ayudaremos.</p>
+                <p>Si deseas obtener información más detallada de nuestros servicios, o recibir una oferta de servicio personalizada que se adapte a tus necesidades, no dudes en contactarnos con gusto te ayudaremos.</p>
                 
             </div>
         
@@ -96,7 +114,7 @@
         </section>
 
         <section class="contactosTelefonos">
-            <div>
+            <div class="contactosDiv">
                 <h1>Contacto</h1>
                 <h2>Domicilio Fiscal</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -125,22 +143,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
     </main>
     <footer>
         <section class="sectionFooter">
             <div class="divFooter">
-                <div class="col-6 col-md-2 mb-3">
-                    <h5>Section</h5>
+                <div class="col-12 col-sm-6 col-md-2 mb-3 divSeccionFooter">
+                    <h5>Sección</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="p-0 aFooter">Home</a></li>
                         <li class="nav-item mb-2"><a href="#" class="p-0 aFooter">Features</a></li>
@@ -149,15 +157,15 @@
                         <li class="nav-item mb-2"><a href="#" class="p-0 aFooter">About</a></li>
                     </ul>
                 </div>
-                <div class="col-md-5 offset-md-1 mb-3">
-                    <form class="formFooter">
+                <div class="col-sm-6 col-md-5 offset-md-1 mb-3">
+                    <form class="formFooter"> 
                         <h5>Contactanos</h5>
                         <p>Completá tus datos y te contactaremos.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Nomvre</label>
+                        <div class="d-flex flex-column w-100 gap-2">
+                            <label for="nombre" class="visually-hidden">Nomvre</label>
                             <input id="nombre" type="nombre" class="form-control" placeholder="Nombre">
-                            <label for="newsletter2" class="visually-hidden">Email</label>
-                            <input id="newsletter2" type="email" class="form-control" placeholder="Email address">
+                            <label for="email" class="visually-hidden">Email</label>
+                            <input id="email" type="email" class="form-control" placeholder="Email address">
                             <button class="buttonFooter">Enviar</button>
                         </div>
                     </form>
@@ -167,19 +175,14 @@
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top finFooter">
                 <p>&copy; 2025 Company, Inc. All rights reserved.</p>
                 <ul class="list-unstyled d-flex">
-                    <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><svg class="bi"
-                                width="24" height="24">
-                                <use xlink:href="#instagram"></use>
-                            </svg></a></li>
-                    <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook"><svg class="bi"
-                                width="24" height="24" aria-hidden="true">
-                                <use xlink:href="#facebook"></use>
-                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="./assets/img/logoinsta.png" aria-label="Instagram"><svg class="bi" width="24" height="24"><use xlink:href=""></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="./assets/img/logoface.png" aria-label="Facebook"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#facebook"></use></svg></a></li>
                 </ul>
             </div>
         </section>
 
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
