@@ -1,0 +1,82 @@
+
+/*html contactos*/
+.titulosContactos{
+    background-color: #1D3245;
+    color: white;
+
+}
+.contactate{
+    display: flex;
+}
+
+.titulosContactos h1{
+    margin-left: 7.8125rem;
+    font-size: 1.6875rem;
+    padding-top: 9.375rem;
+}
+.titulosContactos p{
+    margin-left: 7.8125rem;
+    margin-right: 8.4375rem;
+    color: white;
+    padding: .625rem 0rem;
+}
+
+.sectionContactos img{
+    width: 15%;
+    margin-left: 5.625rem;
+    margin-top: 3.125rem;
+}
+
+
+.formContacto{
+    margin-left: 7.8125rem;
+}
+.formContacto h2{
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
+}
+.formContacto legend{
+    font-size: 1.25rem;
+}
+.contactateCol2{
+    margin-left: 9.375rem;
+}
+.form-label{
+    display: flex;
+}
+.selectForm{
+    display: flex;
+}
+.mensaje button {
+    display: flex;
+    border-radius: .3125rem;
+    background-color: #1D3245;
+    color: white;
+    padding: .3125rem .3125rem;
+}
+
+
+
+.contactosTelefonos{
+    margin-left: 7.8125rem;
+    margin-top: 6.25rem;
+}
+.contactosTelefonos h1{
+    font-size: 1.6875rem;
+}
+
+.contactosTelefonos h2{
+    font-size: 1.25rem;
+}
+.tel{
+    margin-top: 1.875rem;
+}
+.tel h2 {
+    margin-top: 1.25rem;
+}
+.tel button {
+    border-radius: .3125rem;
+    background-color: #1D3245;
+    color: white;
+    padding: .3125rem .3125rem;
+}

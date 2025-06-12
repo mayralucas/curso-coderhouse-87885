@@ -1,2369 +1,2152 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+@charset "UTF-8";
+@import url();
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
-/*
-paleta de colores
-
-#
-#
-#
-#
-
-tipografias
-
-
-*/
-
-
-/*header{
-    background-color: #1D3245;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-header a img{
-    margin-left: 7.1875rem;
-    width: 40%;
-}
-
-ul{
-    list-style: none;
-    display: flex;
-}
-
-.navbar li{
-    margin-right: 8.4375rem;
-}
-
-.navbar li a {
-    color: white;
-    text-decoration: none;
-    font-size: small;
-}*/
-
-.navBg {
-    background-color: #1D3245;
-}
-.logo{
-    width: 40%;
-    margin-left: 6.25rem;
-}
-.ulNavbar li a{
-    color: white;
-    margin-left: 3.125rem;
-    text-decoration: none;
-}
-
-.buttonclass{
-    width: 1.25rem;
-    height: 1.25rem;
-}
-
-
-
-
-
-
-
-
-
 
 main {
-    background-color: rgb(243, 243, 243);
-}
-
-h1 {
-    font-size: 1.6875rem;
-}
-
-h2 {
-    font-size: 1.25rem;
+  background-color: rgb(243, 243, 243);
 }
 
 .section1 {
-    background-color: #1D3245;
-    color: white;
+  background-color: #1D3245;
+  color: white;
 }
-
+.section1 h1 {
+  font-size: 1.6875rem;
+}
+.section1 h2 {
+  font-size: 1.25rem;
+}
 .section1 p {
-    color: white;
+  color: white;
 }
-
-p {
-    color: black;
-}
-
-img {
-    width: 100%;
+.section1 img {
+  width: 100%;
 }
 
 .servicios0 img {
-    width: 10%;
+  width: 10%;
 }
 
-.section-grid{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(4,18.75rem);
-    grid-template-rows: auto;
-    justify-content: center;
-    align-content: center;
-    grid-template-areas: 
-    "servicios0 servicios0 servicios0 servicios0"
-    "servicios1 servicios2 servicios3 servicios4"
-    ;
-    gap: 1.25rem;
-    margin-top: 9.375rem;
+.section-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 18.75rem);
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas: "servicios0 servicios0 servicios0 servicios0" "servicios1 servicios2 servicios3 servicios4";
+  gap: 1.25rem;
+  margin-top: 9.375rem;
 }
 
-.section-grid .servicios0{
-    grid-area: servicios0;
-}
-.section-grid .servicios1{
-    grid-area: servicios1;
-    margin-top: .9375rem;
-    background-color: white
-}
-.section-grid .servicios2{
-    grid-area: servicios2;
-    margin-top: .9375rem;
-    background-color: white
-}
-.section-grid .servicios3{
-    grid-area: servicios3;
-    margin-top: .9375rem;
-    background-color: white
-}
-.section-grid .servicios4{
-    grid-area: servicios4;
-    margin-top: .9375rem;
-    background-color: white
+.section-grid .servicios0 {
+  grid-area: servicios0;
 }
 
+.section-grid .servicios1 {
+  grid-area: servicios1;
+  margin-top: 0.9375rem;
+  background-color: white;
+}
 
-.serviciosSection1{
-    display: flex;
+.section-grid .servicios2 {
+  grid-area: servicios2;
+  margin-top: 0.9375rem;
+  background-color: white;
 }
-.divServicios0{
-    margin-left: 1.875rem;
-    margin-top: .625rem;
+
+.section-grid .servicios3 {
+  grid-area: servicios3;
+  margin-top: 0.9375rem;
+  background-color: white;
 }
-.divServicios0 h1{
-    margin-left: 1.875rem;
-    margin-top: .625rem;
-    font-size: 1.6875rem;
+
+.section-grid .servicios4 {
+  grid-area: servicios4;
+  margin-top: 0.9375rem;
+  background-color: white;
 }
-.divServicios0 h2{
-    margin-left: 1.875rem;
-    margin-top: .625rem;
-    font-size: 1.25rem;
+
+.serviciosSection1 {
+  display: flex;
 }
-.divServicios0 p{
-    margin-left: 1.875rem;
-    margin-top: .125rem;
+
+.divServicios0 {
+  margin-left: 1.875rem;
+  margin-top: 0.625rem;
+}
+
+.divServicios0 h1 {
+  margin-left: 1.875rem;
+  margin-top: 0.625rem;
+  font-size: 1.6875rem;
+}
+
+.divServicios0 h2 {
+  margin-left: 1.875rem;
+  margin-top: 0.625rem;
+  font-size: 1.25rem;
+}
+
+.divServicios0 p {
+  margin-left: 1.875rem;
+  margin-top: 0.125rem;
 }
 
 .servicios1 h1 {
-    font-size: 1.25rem;
-    margin-top: .625rem;
-    margin-left: .9375rem;
+  font-size: 1.25rem;
+  margin-top: 0.625rem;
+  margin-left: 0.9375rem;
 }
+
 .servicios1 p {
-    margin-left: .9375rem;
+  margin-left: 0.9375rem;
 }
+
+.servicios1 img {
+  width: 100%;
+}
+
 .servicios2 h1 {
-    font-size: 1.25rem;
-    margin-top: .625rem;
-    margin-left: .9375rem;
+  font-size: 1.25rem;
+  margin-top: 0.625rem;
+  margin-left: 0.9375rem;
 }
+
 .servicios2 p {
-    margin-left: .9375rem;
+  margin-left: 0.9375rem;
 }
+
+.servicios2 img {
+  width: 100%;
+}
+
 .servicios3 h1 {
-    font-size: 1.25rem;
-    margin-top: .625rem;
-    margin-left: .9375rem;
+  font-size: 1.25rem;
+  margin-top: 0.625rem;
+  margin-left: 0.9375rem;
 }
+
 .servicios3 p {
-    margin-left: .9375rem;
+  margin-left: 0.9375rem;
 }
+
+.servicios3 img {
+  width: 100%;
+}
+
 .servicios4 h1 {
-    font-size: 1.25rem;
-    margin-top: .625rem;
-    margin-left: .9375rem;
+  font-size: 1.25rem;
+  margin-top: 0.625rem;
+  margin-left: 0.9375rem;
 }
+
 .servicios4 p {
-    margin-left: .9375rem;
+  margin-left: 0.9375rem;
 }
 
-.servicios1 img:hover{
-    filter: drop-shadow(2px 2px 5px #1D3245);
-}
-.servicios2 img:hover{
-    filter: drop-shadow(2px 2px 5px #1D3245);
-}
-.servicios3 img:hover{
-    filter: drop-shadow(2px 2px 5px #1D3245);
-}
-.servicios4 img:hover{
-    filter: drop-shadow(2px 2px 5px #1D3245);
-}
-.section1{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(5,5rem) ;
+.servicios4 img {
+  width: 100%;
 }
 
-.section1 h1{
-    grid-column:1/3;
-    grid-row:1/2 ;
-    align-self: center;
-    margin-left: 7.8125rem;
-    margin-top: 5rem;
-    margin-inline-end: 100%;
-    font-size: 1.5625rem;
-
+.servicios1 img:hover {
+  filter: drop-shadow(2px 2px 5px #1D3245);
 }
 
-.section1 p{
-    grid-column:1/3;
-    grid-row:2/3 ;
-    align-self: center;
-    margin-left: 7.8125rem;
-    margin-top: 1.25rem;
-    font-size: .625rem;
-    
+.servicios2 img:hover {
+  filter: drop-shadow(2px 2px 5px #1D3245);
 }
 
-.section1 .img1{
-    grid-column:1/6 ;
-    grid-row:3/6 ;
-    width: 87%;
-    justify-self: center;
-    align-self: center;
-    margin-top: 7.5rem;
-
+.servicios3 img:hover {
+  filter: drop-shadow(2px 2px 5px #1D3245);
 }
 
-.nuevoServicio{
-    display: flex;
-    background-color: white;
-    justify-content: space-between;
-    margin-top: 7.5rem;
+.servicios4 img:hover {
+  filter: drop-shadow(2px 2px 5px #1D3245);
+}
 
+.section1 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 5rem);
 }
-.nuevoServicio img{
-    width: 38.75rem;
-    margin-right: 8.4375rem;
+
+.section1 h1 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  align-self: center;
+  margin-left: 7.8125rem;
+  margin-top: 5rem;
+  margin-inline-end: 100%;
+  font-size: 1.5625rem;
 }
-.nuevoServicio h1{
-    font-size: 1.6875rem;
-    margin-top: 7.5rem;
-    margin-left: 7.8125rem;
+
+.section1 p {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  align-self: center;
+  margin-left: 7.8125rem;
+  margin-top: 1.25rem;
+  font-size: 0.625rem;
 }
-.nuevoServicio p{
-    margin-left: 7.8125rem;
+
+.section1 .img1 {
+  grid-column: 1/6;
+  grid-row: 3/6;
+  width: 87%;
+  justify-self: center;
+  align-self: center;
+  margin-top: 7.5rem;
 }
-.nuevoServicio button{
-    margin-left: 7.8125rem;
+
+.nuevoServicio {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin-top: 7.5rem;
+}
+
+.nuevoServicio img {
+  width: 38.75rem;
+  margin-right: 8.4375rem;
+}
+
+.nuevoServicio h1 {
+  font-size: 1.6875rem;
+  margin-top: 7.5rem;
+  margin-left: 7.8125rem;
+}
+
+.nuevoServicio p {
+  margin-left: 7.8125rem;
+}
+
+.nuevoServicio button {
+  margin-left: 7.8125rem;
 }
 
 .porQueElegirnos {
-    display: flex;
-    background-color: rgb(243, 243, 243);
-    justify-content: space-between;
-    margin-top: 0;
+  display: flex;
+  background-color: rgb(243, 243, 243);
+  justify-content: space-between;
+  margin-top: 0;
 }
-.porQueElegirnos img{
-    width: 38.75rem;
-    margin-left: 8.4375rem;
+
+.porQueElegirnos img {
+  width: 38.75rem;
+  margin-left: 8.4375rem;
 }
+
 .porQueElegirnos h1 {
-    font-size: 1.6875rem;
-    margin-top: 7.5rem;
-    margin-right: 7.8125rem;
-    margin-left: 1.5625rem;
+  font-size: 1.6875rem;
+  margin-top: 7.5rem;
+  margin-right: 7.8125rem;
+  margin-left: 1.5625rem;
 }
 
 .porQueElegirnos p {
-    margin-right: 7.8125rem;
-    margin-left: 1.5625rem;
+  margin-right: 7.8125rem;
+  margin-left: 1.5625rem;
 }
 
 .porQueElegirnos button {
-    margin-right: 7.8125rem;
-    margin-left: 1.5625rem;
+  margin-right: 7.8125rem;
+  margin-left: 1.5625rem;
 }
 
-.vehiculosCertificados{
-    display: flex;
-    background-color: white;
-    justify-content: space-between;
-    margin-top: 0
+.vehiculosCertificados {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin-top: 0;
+}
 
+.vehiculosCertificados img {
+  width: 38.75rem;
+  margin-right: 8.4375rem;
 }
-.vehiculosCertificados img{
-    width: 38.75rem;
-    margin-right: 8.4375rem;
+
+.vehiculosCertificados h1 {
+  font-size: 1.6875rem;
+  margin-top: 7.5rem;
+  margin-left: 7.8125rem;
 }
-.vehiculosCertificados h1{
-    font-size: 1.6875rem;
-    margin-top: 7.5rem;
-    margin-left: 7.8125rem;
-}
+
 .vehiculosCertificados p {
-    margin-left: 7.8125rem;
-    margin-right: 1.5625rem;
+  margin-left: 7.8125rem;
+  margin-right: 1.5625rem;
 }
-.vehiculosCertificados button{
-    margin-left: 7.8125rem;
+
+.vehiculosCertificados button {
+  margin-left: 7.8125rem;
 }
 
 .equipamientosAdaptados {
-    display: flex;
-    background-color: rgb(243, 243, 243);
-    justify-content: space-between;
-    margin-top: 0;
+  display: flex;
+  background-color: rgb(243, 243, 243);
+  justify-content: space-between;
+  margin-top: 0;
 }
-.equipamientosAdaptados img{
-    width: 38.75rem;
-    margin-left: 8.4375rem;
+
+.equipamientosAdaptados img {
+  width: 38.75rem;
+  margin-left: 8.4375rem;
 }
+
 .equipamientosAdaptados h1 {
-    font-size: 1.6875rem;
-    margin-top: 7.5rem;
-    margin-right: 7.8125rem;
-    margin-left: 1.5625rem;
+  font-size: 1.6875rem;
+  margin-top: 7.5rem;
+  margin-right: 7.8125rem;
+  margin-left: 1.5625rem;
 }
 
 .equipamientosAdaptados p {
-    margin-right: 7.8125rem;
-    margin-left: 1.5625rem;
+  margin-right: 7.8125rem;
+  margin-left: 1.5625rem;
 }
 
 .equipamientosAdaptados button {
-    margin-right: 7.8125rem;
-    margin-left: 1.5625rem;
+  margin-right: 7.8125rem;
+  margin-left: 1.5625rem;
 }
 
-.zonas{
-    background-image: url(../assets/img/bgzonas.jpg);
-    background-size: 80%;
-    background-repeat: no-repeat;
-    margin-top: 1.875rem;
-    padding: 10.625rem 10.625rem 10.625rem;
+.zonas {
+  background-image: url(../assets/img/bgzonas.jpg);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin-top: 1.875rem;
+  padding: 10.625rem 10.625rem 10.625rem;
 }
+
 .zonas h1 {
-    font-size: 1.6875rem;
-    margin-left: 0;
+  font-size: 1.6875rem;
+  margin-left: 0;
 }
-
-
-
-
-
-
-
-
-
-
-/*FOOTER*/
-.sectionFooter{
-    background-color: #1D3245;
-    color: white;
-    margin-top: 25rem;
-    padding: 3.125rem 8.75rem;
-}
-.divFooter{
-    display: flex;
-    justify-content: space-between;
-}
-.formFooter p {
-    color: white;
-}
-.buttonFooter{
-    background-color: #1D3245;
-    color: white;
-    border-radius: 10%;
-}
-.finFooter p{
-    color: white;
-}
-.aFooter{
-    text-decoration: none;
-    color: white;
-}
-
 
 /*html servicios*/
-main{
-    background-color: rgb(243, 243, 243);
+main {
+  background-color: rgb(243, 243, 243);
 }
-.imgFlota{
-    width: 300%;
+
+.serviciosHtml p {
+  padding-top: 1.25rem;
 }
-.tituloPinc{
-    width: 83%;
-    margin-left: 7.8125rem;
-    margin-top: 6.25rem;
+
+.serviciosHtml img {
+  width: 300%;
 }
-.tituloPinc h1{
-    font-size: 1.6875rem;
+
+.tituloPinc {
+  width: 83%;
+  margin-left: 7.8125rem;
+  margin-top: 6.25rem;
 }
-.tituloPinc h2{
-    font-size: 1.25rem;
+
+.tituloPinc h1 {
+  font-size: 1.6875rem;
+}
+
+.tituloPinc h2 {
+  font-size: 1.25rem;
 }
 
 /*cotizador*/
 .formCotizador {
-    background-color: white;
-    filter: drop-shadow(2px 2px 10px lightgray);
-    width: 83%;
-    justify-self: center;
-    margin-top: 3.125rem;
-    padding-top: 1.875rem;
-}
-.formCotizador legend{
-    margin-left: 11.875rem;
-}
-.cotizador{
-    display: flex;
-    justify-self: center;
-}
-.cotizador button{
-    margin-left: 1.875rem;
-    background-color: #1D3245;
-    color: white;
-    padding: .625rem .625rem .625rem .625rem;
-    border-radius: 5%;
+  background-color: white;
+  filter: drop-shadow(2px 2px 10px lightgray);
+  width: 83%;
+  justify-self: center;
+  margin-top: 3.125rem;
+  padding-top: 1.875rem;
+  border-radius: 0.3125rem;
 }
 
-.cotizadorCol2{
-    margin-left: 6.25rem;
+.formCotizador legend {
+  margin-left: 11.875rem;
+}
 
-} 
-.cotizadorCol3{
-    margin-left: 6.25rem;
-} 
+.cotizador {
+  display: flex;
+  justify-self: center;
+}
+
+.cotizador button {
+  background-color: #1D3245;
+  color: white;
+  padding: 0.625rem 0.625rem;
+  border-radius: 5%;
+}
+
+.cotizadorCol2 {
+  margin-left: 9.375rem;
+}
+
+.cotizadorCol3 {
+  margin-left: 9.375rem;
+}
 
 /*seccion gama*/
 .gamaHtmlServicios h1 {
-    font-size: 1.6875rem;
-    margin-left: 7.8125rem;
-    margin-top: 6.25rem;
+  font-size: 1.6875rem;
+  margin-left: 7.8125rem;
+  margin-top: 6.25rem;
 }
 
 .camio1 {
-    display: flex;
-    background-color: rgb(243, 243, 243);
+  display: flex;
+  background-color: rgb(243, 243, 243);
 }
 
 .camio1 img {
-    width: 38.75rem;
-    margin-left: 8.4375rem;
+  width: 38.75rem;
+  margin-left: 8.4375rem;
 }
 
 .divCamio1 h1 {
-    font-size: 1.6875rem;
-    margin-top: 7.5rem;
-    margin-left: 0;
+  font-size: 1.6875rem;
+  margin-top: 7.5rem;
+  margin-left: 0;
 }
 
 .divCamio1 p {
-    margin-right: 7.8125rem;
+  margin-right: 7.8125rem;
 }
 
 .divCamio1 button {
-    margin-right: 7.8125rem;
-    border-radius: 10%;
-    padding: .3125rem .3125rem .3125rem .3125rem;
-    background-color: #1D3245;
-    color: white;
+  margin-right: 7.8125rem;
+  border-radius: 10%;
+  padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  background-color: #1D3245;
+  color: white;
 }
 
 .camio2 {
-    display: flex;
-    background-color: white;
+  display: flex;
+  background-color: white;
 }
 
 .camio2 img {
-    width: 38.75rem;
-    margin-left: 8.4375rem;
+  width: 38.75rem;
+  margin-left: 8.4375rem;
 }
 
 .divCamio2 h1 {
-    font-size: 1.6875rem;
-    margin-top: 7.5rem;
-    margin-left: 0;
+  font-size: 1.6875rem;
+  margin-top: 7.5rem;
+  margin-left: 0;
 }
 
 .divCamio2 p {
-    margin-right: 7.8125rem;
+  margin-right: 7.8125rem;
 }
 
 .divCamio2 button {
-    margin-right: 7.8125rem;
-    border-radius: 10%;
-    padding: .3125rem .3125rem .3125rem .3125rem;
-    background-color: #1D3245;
-    color: white;
+  margin-right: 7.8125rem;
+  border-radius: 10%;
+  padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  background-color: #1D3245;
+  color: white;
 }
 
 .camio3 {
-    display: flex;
-    background-color: rgb(243, 243, 243);
+  display: flex;
+  background-color: rgb(243, 243, 243);
 }
 
 .camio3 img {
-    width: 38.75rem;
-    margin-left: 8.4375rem;
+  width: 38.75rem;
+  margin-left: 8.4375rem;
 }
 
 .divCamio3 h1 {
-    font-size: 1.6875rem;
-    margin-top: 7.5rem;
-    margin-left: 0;
+  font-size: 1.6875rem;
+  margin-top: 7.5rem;
+  margin-left: 0;
 }
 
 .divCamio3 p {
-    margin-right: 7.8125rem;
+  margin-right: 7.8125rem;
 }
 
 .divCamio3 button {
-    margin-right: 7.8125rem;
-    border-radius: 10%;
-    padding: .3125rem .3125rem .3125rem .3125rem;
-    background-color: #1D3245;
-    color: white;
+  margin-right: 7.8125rem;
+  border-radius: 10%;
+  padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  background-color: #1D3245;
+  color: white;
 }
 
 .camio4 {
-    display: flex;
-    background-color: white;
+  display: flex;
+  background-color: white;
 }
 
 .camio4 img {
-    width: 38.75rem;
-    margin-left: 8.4375rem;
+  width: 38.75rem;
+  margin-left: 8.4375rem;
 }
 
 .divCamio4 h1 {
-    font-size: 1.6875rem;
-    margin-top: 7.5rem;
-    margin-left: 0;
+  font-size: 1.6875rem;
+  margin-top: 7.5rem;
+  margin-left: 0;
 }
 
 .divCamio4 p {
-    margin-right: 7.8125rem;
+  margin-right: 7.8125rem;
 }
 
 .divCamio4 button {
-    margin-right: 7.8125rem;
-    border-radius: 10%;
-    padding: .3125rem .3125rem .3125rem .3125rem;
-    background-color: #1D3245;
-    color: white;
+  margin-right: 7.8125rem;
+  border-radius: 10%;
+  padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  background-color: #1D3245;
+  color: white;
 }
 
 .camio5 {
-    display: flex;
-    background-color: rgb(243, 243, 243);
+  display: flex;
+  background-color: rgb(243, 243, 243);
 }
 
 .camio5 img {
-    width: 38.75rem;
-    margin-left: 8.4375rem;
+  width: 38.75rem;
+  margin-left: 8.4375rem;
 }
 
 .divCamio5 h1 {
-    font-size: 1.6875rem;
-    margin-top: 7.5rem;
-    margin-left: 0;
+  font-size: 1.6875rem;
+  margin-top: 7.5rem;
+  margin-left: 0;
 }
 
 .divCamio5 p {
-    margin-right: 7.8125rem;
+  margin-right: 7.8125rem;
 }
 
 .divCamio5 button {
-    margin-right: 7.8125rem;
-    border-radius: 10%;
-    padding: .3125rem .3125rem .3125rem .3125rem;
-    background-color: #1D3245;
-    color: white;
+  margin-right: 7.8125rem;
+  border-radius: 10%;
+  padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  background-color: #1D3245;
+  color: white;
 }
 
 /*html contactos*/
-.titulosContactos{
-    background-color: #1D3245;
-    color: white;
-
-}
-.contactate{
-    display: flex;
+.titulosContactos {
+  background-color: #1D3245;
+  color: white;
 }
 
-.titulosContactos h1{
-    margin-left: 7.8125rem;
-    font-size: 1.6875rem;
-    padding-top: 9.375rem;
-}
-.titulosContactos p{
-    margin-left: 7.8125rem;
-    margin-right: 8.4375rem;
-    color: white;
-    padding: .625rem 0rem;
+.contactate {
+  display: flex;
 }
 
-
-.formContacto{
-    margin-left: 7.8125rem;
-    margin-top: 1.5625rem;
-}
-.formContacto h2{
-    margin-top: 9.375rem;
-    font-size: 1.25rem;
-}
-.formContacto legend{
-    font-size: 1.25rem;
-}
-.contactateCol2{
-    margin-left: 9.375rem;
-}
-.form-label{
-    display: flex;
-}
-.selectForm{
-    display: flex;
+.titulosContactos h1 {
+  margin-left: 7.8125rem;
+  font-size: 1.6875rem;
+  padding-top: 9.375rem;
 }
 
-
-
-.contactosTelefonos{
-    margin-left: 7.8125rem;
-    margin-top: 6.25rem;
-}
-.contactosTelefonos h1{
-    font-size: 1.6875rem;
+.titulosContactos p {
+  margin-left: 7.8125rem;
+  margin-right: 8.4375rem;
+  color: white;
+  padding: 0.625rem 0rem;
 }
 
-.contactosTelefonos h2{
-    font-size: 1.25rem;
+.sectionContactos img {
+  width: 15%;
+  margin-left: 5.625rem;
+  margin-top: 3.125rem;
 }
-.tel{
-    margin-top: 1.875rem;
+
+.formContacto {
+  margin-left: 7.8125rem;
 }
 
+.formContacto h2 {
+  margin-top: 1.25rem;
+  font-size: 1.25rem;
+}
 
+.formContacto legend {
+  font-size: 1.25rem;
+}
 
+.contactateCol2 {
+  margin-left: 9.375rem;
+}
 
+.form-label {
+  display: flex;
+}
 
+.selectForm {
+  display: flex;
+}
 
+.mensaje button {
+  display: flex;
+  border-radius: 0.3125rem;
+  background-color: #1D3245;
+  color: white;
+  padding: 0.3125rem 0.3125rem;
+}
 
+.contactosTelefonos {
+  margin-left: 7.8125rem;
+  margin-top: 6.25rem;
+}
 
+.contactosTelefonos h1 {
+  font-size: 1.6875rem;
+}
 
+.contactosTelefonos h2 {
+  font-size: 1.25rem;
+}
 
+.tel {
+  margin-top: 1.875rem;
+}
 
+.tel h2 {
+  margin-top: 1.25rem;
+}
 
+.tel button {
+  border-radius: 0.3125rem;
+  background-color: #1D3245;
+  color: white;
+  padding: 0.3125rem 0.3125rem;
+}
 
+.sectionNosotros h1 {
+  font-size: 1.6875rem;
+  margin-left: 7.8125rem;
+  padding-top: 3.125rem;
+}
 
+.sectionNosotros p {
+  margin-left: 7.8125rem;
+  margin-right: 7.8125rem;
+}
 
+.sectionNosotros h2 {
+  font-size: 1.25rem;
+  margin-left: 7.8125rem;
+  padding-top: 3.125rem;
+}
 
+/*FOOTER*/
+.sectionFooter {
+  background-color: #1D3245;
+  color: white;
+  margin-top: 25rem;
+  padding: 3.125rem 8.75rem;
+}
 
+.divFooter {
+  display: flex;
+  justify-content: space-between;
+}
 
+.formFooter p {
+  color: white;
+}
 
+.buttonFooter {
+  background-color: #1D3245;
+  color: white;
+  border-radius: 10%;
+}
 
+.finFooter p {
+  color: white;
+}
 
+.aFooter {
+  text-decoration: none;
+  color: white;
+}
 
+header {
+  background-color: #1D3245;
+}
 
+.logo {
+  width: 40%;
+  margin-left: 6.25rem;
+}
 
+.ulNavbar li a {
+  color: white;
+  margin-left: 3.125rem;
+  text-decoration: none;
+}
 
-
-
-
-
-
+.buttonclass {
+  width: 1.25rem;
+  height: 1.25rem;
+}
 
 /*RESPONSIVE*/
 /*1024*/
-
 /*index*/
-
-@media(max-width:1024px) {
-
-    header {
-        justify-content: space-around;
-    }
-        .logo{
-        margin-left: 28%;
-    }
-
-.ulNavbar li a{
+@media (max-width: 1024px) {
+  header {
+    justify-content: space-around;
+  }
+  .logo {
+    margin-left: 28%;
+  }
+  .ulNavbar li a {
     color: white;
     margin-left: 2.5rem;
     margin-right: 3.125rem;
-    font-size: .875rem;
+    font-size: 0.875rem;
     text-decoration: none;
-}
-
-    header a img {
-        width: 30%;
-    }
-    .section1{
+  }
+  header a img {
+    width: 30%;
+  }
+  .section1 {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: .3125rem repeat(4,5rem) ;
-}
-    .section1 h1{
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.3125rem repeat(4, 5rem);
+  }
+  .section1 h1 {
     margin-left: 6.25rem;
     margin-top: 9.375rem;
-
-}
-
-.section1 p{
+  }
+  .section1 p {
     margin-left: 6.25rem;
     margin-top: 9.375rem;
-
-}
-
-.section1 .img1{
+  }
+  .section1 .img1 {
     width: 84%;
     justify-self: center;
     align-self: center;
     margin-top: 8.125rem;
-
-}
-
-
-.servicios0 img {
+  }
+  .servicios0 img {
     width: 20%;
-}
-.section-grid{
+  }
+  .section-grid {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(2,18.75rem);
+    grid-template-columns: repeat(2, 18.75rem);
     grid-template-rows: auto;
     justify-content: center;
     align-content: center;
-    grid-template-areas: 
-    "servicios0 servicios0"
-    "servicios1 servicios2"
-    "servicios3 servicios4"
-    ;
+    grid-template-areas: "servicios0 servicios0" "servicios1 servicios2" "servicios3 servicios4";
     gap: 1.25rem;
     margin-top: 9.375rem;
-}
-.nuevoServicio img{
+  }
+  .nuevoServicio img {
     width: 25rem;
-    margin-right: 6.875rem
-}
-
-.porQueElegirnos img{
-    width: 25rem;
-    margin-left: 6.875rem;
-}
-.vehiculosCertificados img{
-    width: 25rem;
-    margin-right: 6.875rem
-}
-.equipamientosAdaptados img{
+    margin-right: 6.875rem;
+  }
+  .porQueElegirnos img {
     width: 25rem;
     margin-left: 6.875rem;
-}
-.nuevoServicio h1{
+  }
+  .vehiculosCertificados img {
+    width: 25rem;
+    margin-right: 6.875rem;
+  }
+  .equipamientosAdaptados img {
+    width: 25rem;
+    margin-left: 6.875rem;
+  }
+  .nuevoServicio h1 {
     font-size: 1.6875rem;
     margin-top: 2.5rem;
     margin-left: 7.8125rem;
-}
-.porQueElegirnos h1 {
+  }
+  .porQueElegirnos h1 {
     font-size: 1.6875rem;
     margin-top: 1.25rem;
     margin-right: 7.8125rem;
     margin-left: 1.875rem;
-}
-.vehiculosCertificados h1{
+  }
+  .vehiculosCertificados h1 {
     font-size: 1.6875rem;
     margin-top: 1.875rem;
     margin-left: 7.8125rem;
-}
-.equipamientosAdaptados h1 {
+  }
+  .equipamientosAdaptados h1 {
     font-size: 1.6875rem;
     margin-top: 3.75rem;
     margin-right: 7.8125rem;
     margin-left: 1.5625rem;
-}
-
-
-/*---------------*/
-
-
-/*htmlservicios*/
-.serviciosHtml p{
+  }
+  /*---------------*/
+  /*htmlservicios*/
+  .serviciosHtml p {
     padding-top: 2.5rem;
-}
-.serviciosHtml img{
+  }
+  .serviciosHtml img {
     margin-top: 3.125rem;
-}
-.tituloPinc h1{
+  }
+  .tituloPinc h1 {
     margin-top: 3.75rem;
-}
-.gamaHtmlServicios h1{
+  }
+  .gamaHtmlServicios h1 {
     margin-left: 5.625rem;
-}
-
-.camio1 img{
+  }
+  .camio1 img {
     width: 40%;
-}
-.divCamio1{
+  }
+  .divCamio1 {
     margin-top: 0;
-}
-.divCamio1 h1{
+  }
+  .divCamio1 h1 {
     margin-left: 0;
     font-size: 1.25rem;
     margin-top: 3.125rem;
-}
-.divCamio1 button{
-    font-size: .75rem;
-}
-
-.camio2 img{
+  }
+  .divCamio1 button {
+    font-size: 0.75rem;
+  }
+  .camio2 img {
     width: 40%;
-}
-.divCamio2{
+  }
+  .divCamio2 {
     margin-top: 0;
-}
-.divCamio2 h1{
+  }
+  .divCamio2 h1 {
     margin-left: 0;
     font-size: 1.25rem;
     margin-top: 3.125rem;
-}
-.divCamio2 button{
-    font-size: .75rem;
-}
-
-.camio3 img{
+  }
+  .divCamio2 button {
+    font-size: 0.75rem;
+  }
+  .camio3 img {
     width: 40%;
-}
-.divCamio3{
+  }
+  .divCamio3 {
     margin-top: 0;
-}
-.divCamio3 h1{
+  }
+  .divCamio3 h1 {
     margin-left: 0;
     font-size: 1.25rem;
     margin-top: 3.125rem;
-}
-.divCamio3 button{
-    font-size: .75rem;
-}
-
-.camio4 img{
+  }
+  .divCamio3 button {
+    font-size: 0.75rem;
+  }
+  .camio4 img {
     width: 40%;
-}
-.divCamio4{
+  }
+  .divCamio4 {
     margin-top: 0;
-}
-.divCamio4 h1{
+  }
+  .divCamio4 h1 {
     margin-left: 0;
     font-size: 1.25rem;
     margin-top: 3.125rem;
-}
-.divCamio4 button{
-    font-size: .75rem;
-}
-
-.camio5 img{
+  }
+  .divCamio4 button {
+    font-size: 0.75rem;
+  }
+  .camio5 img {
     width: 40%;
-}
-.divCamio5{
+  }
+  .divCamio5 {
     margin-top: 0;
-}
-.divCamio5 h1{
+  }
+  .divCamio5 h1 {
     margin-left: 0;
     font-size: 1.25rem;
     margin-top: 3.125rem;
+  }
+  .divCamio5 button {
+    font-size: 0.75rem;
+  }
+  /*-------------*/
 }
-.divCamio5 button{
-    font-size: .75rem;
-}
-
-/*-------------*/
-
-}
-
-
-
-
-
 /*768*/
-
-@media(max-width:768px){
-
-    .logo{
-        margin-left: 28%;
-    }
-    .section1 h1{
-        margin-left: 28%;
-    }
-    .section1 p{
-        margin-left: 28%;
-        padding-top: .625rem;
-    }
-
-    .ulNavbar li a{
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 28%;
+  }
+  .section1 h1 {
+    margin-left: 28%;
+  }
+  .section1 p {
+    margin-left: 28%;
+    padding-top: 0.625rem;
+  }
+  .ulNavbar li a {
     color: white;
     margin-left: 1.25rem;
-    font-size: .75rem;
+    font-size: 0.75rem;
     text-decoration: none;
-}
-
-    header a img {
-        width: 40%;
-    }
-
-.nuevoServicio img{
+  }
+  header a img {
+    width: 40%;
+  }
+  .nuevoServicio img {
     width: 19.0625rem;
     margin-right: 5rem;
-}
-.nuevoServicio h1{
+  }
+  .nuevoServicio h1 {
     font-size: 1.25rem;
     margin-top: 1.25rem;
     margin-left: 5rem;
-}
-.nuevoServicio p{
+  }
+  .nuevoServicio p {
     margin-left: 5rem;
-    margin-right: .625rem;
-    font-size: .75rem;
-}
-.nuevoServicio button{
+    margin-right: 0.625rem;
+    font-size: 0.75rem;
+  }
+  .nuevoServicio button {
     margin-left: 5rem;
-}
-
-.porQueElegirnos img{
+  }
+  .porQueElegirnos img {
     width: 19.0625rem;
     margin-left: 5rem;
-}
-.porQueElegirnos h1 {
+  }
+  .porQueElegirnos h1 {
     font-size: 1.25rem;
     margin-top: 1.25rem;
     margin-right: 5rem;
-    margin-left: .625rem;
-}
-
-.porQueElegirnos p {
+    margin-left: 0.625rem;
+  }
+  .porQueElegirnos p {
     margin-right: 5rem;
-    margin-left: .625rem;
-    font-size: .75rem;
-}
-
-.porQueElegirnos button {
+    margin-left: 0.625rem;
+    font-size: 0.75rem;
+  }
+  .porQueElegirnos button {
     margin-right: 7.8125rem;
-    margin-left: .625rem;
-}
-
-.vehiculosCertificados img{
+    margin-left: 0.625rem;
+  }
+  .vehiculosCertificados img {
     width: 19.0625rem;
     margin-right: 5rem;
-}
-.vehiculosCertificados h1{
+  }
+  .vehiculosCertificados h1 {
     font-size: 1.25rem;
     margin-top: 1.25rem;
     margin-left: 5rem;
-}
-.vehiculosCertificados p {
+  }
+  .vehiculosCertificados p {
     margin-left: 5rem;
-    margin-right: .625rem;
-    font-size: .75rem;
-}
-.vehiculosCertificados button{
+    margin-right: 0.625rem;
+    font-size: 0.75rem;
+  }
+  .vehiculosCertificados button {
     margin-left: 5rem;
-}
-
-.equipamientosAdaptados img{
+  }
+  .equipamientosAdaptados img {
     width: 19.0625rem;
     margin-left: 5rem;
-}
-.equipamientosAdaptados h1 {
+  }
+  .equipamientosAdaptados h1 {
     font-size: 1.25rem;
     margin-top: 2.5rem;
     margin-right: 5rem;
-    margin-left: .625rem;
-}
-
-.equipamientosAdaptados p {
+    margin-left: 0.625rem;
+  }
+  .equipamientosAdaptados p {
     margin-right: 5rem;
-    margin-left: .625rem;
-    font-size: .75rem;
-}
-
-.equipamientosAdaptados button {
+    margin-left: 0.625rem;
+    font-size: 0.75rem;
+  }
+  .equipamientosAdaptados button {
     margin-right: 7.8125rem;
-    margin-left: .625rem;
-}
-
-.zonas{
-    margin-top: .625rem;
+    margin-left: 0.625rem;
+  }
+  .zonas {
+    margin-top: 0.625rem;
     padding: 5rem 5rem 5rem 5rem;
-}
-.zonas h1 {
+  }
+  .zonas h1 {
     font-size: 1.25rem;
     margin-left: 0;
-}
-.zonas p {
-    font-size: .75rem;
-}
-
-
-/*htmlservicios*/
-/*cotizador*/
-.formCotizador {
+  }
+  .zonas p {
+    font-size: 0.75rem;
+  }
+  /*htmlservicios*/
+  /*cotizador*/
+  .formCotizador {
     width: 80%;
-
-}
-.formCotizador legend{
+  }
+  .formCotizador legend {
     margin-left: 1.5625rem;
     margin-top: 0%;
-}
-.cotizador{
+  }
+  .cotizador {
     display: flex;
     justify-self: center;
-}
-.cotizador button{
-    font-size: .75rem;
+  }
+  .cotizador button {
+    font-size: 0.75rem;
     margin-left: 1.875rem;
-    padding: .625rem .625rem .625rem .625rem;
-}
-
-.cotizadorCol2{
-    margin-left: .9375rem;
-
-} 
-.cotizadorCol3{
-    margin-left: .9375rem;
-} 
-.divFechaFin{
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  }
+  .cotizadorCol2 {
+    margin-left: 0.9375rem;
+  }
+  .cotizadorCol3 {
+    margin-left: 0.9375rem;
+  }
+  .divFechaFin {
     margin-top: 1.125rem;
-}
-
-.seleccionarInicio{
-    margin-top: .5rem;
-
-}
-.seleccionarFin{
-    margin-top: .5rem;
-
-}
-.elegirVehículo{
-    margin-top: .5rem;
-}
-
-
-
-
-
-.serviciosHtml h1{
+  }
+  .seleccionarInicio {
+    margin-top: 0.5rem;
+  }
+  .seleccionarFin {
+    margin-top: 0.5rem;
+  }
+  .elegirVehículo {
+    margin-top: 0.5rem;
+  }
+  .serviciosHtml h1 {
     margin-left: 5rem;
-}
-.serviciosHtml p{
+  }
+  .serviciosHtml p {
     padding-top: 3.125rem;
     margin-left: 5rem;
-}
-.serviciosHtml img{
+  }
+  .serviciosHtml img {
     margin-top: 75%;
-}
-.tituloPinc{
+  }
+  .tituloPinc {
     margin-left: 5.625rem;
     margin-top: 3.75rem;
-}
-.gamaHtmlServicios h1{
+  }
+  .gamaHtmlServicios h1 {
     margin-left: 5.625rem;
-}
-
-.camio1 img{
+  }
+  .camio1 img {
     width: 45%;
     height: 90%;
     margin-left: 8%;
-}
-.divCamio1{
+  }
+  .divCamio1 {
     margin-top: 0;
-}
-.divCamio1 h1{
+  }
+  .divCamio1 h1 {
     margin-left: 0;
     font-size: 1.25rem;
     margin-top: 1.25rem;
-}
-.divCamio1 p{
-    font-size: .75rem;
-}
-.divCamio1 button{
-    font-size: .6875rem;
-}
-
-.camio2 img{
+  }
+  .divCamio1 p {
+    font-size: 0.75rem;
+  }
+  .divCamio1 button {
+    font-size: 0.6875rem;
+  }
+  .camio2 img {
     width: 45%;
     height: 90%;
     margin-left: 8%;
-}
-.divCamio2{
+  }
+  .divCamio2 {
     margin-top: 0;
-}
-.divCamio2 h1{
+  }
+  .divCamio2 h1 {
     margin-left: 0;
     font-size: 1.25rem;
     margin-top: 1.25rem;
-}
-.divCamio2 p{
-    font-size: .75rem;
-}
-.divCamio2 button{
-    font-size: .6875rem;
-}
-
-.camio3 img{
+  }
+  .divCamio2 p {
+    font-size: 0.75rem;
+  }
+  .divCamio2 button {
+    font-size: 0.6875rem;
+  }
+  .camio3 img {
     width: 45%;
     height: 90%;
     margin-left: 8%;
-}
-.divCamio3{
+  }
+  .divCamio3 {
     margin-top: 0;
-}
-.divCamio3 h1{
+  }
+  .divCamio3 h1 {
     margin-left: 0;
     font-size: 1.25rem;
     margin-top: 1.25rem;
-}
-.divCamio3 p{
-    font-size: .75rem;
-}
-.divCamio3 button{
-    font-size: .6875rem;
-}
-
-.camio4 img{
+  }
+  .divCamio3 p {
+    font-size: 0.75rem;
+  }
+  .divCamio3 button {
+    font-size: 0.6875rem;
+  }
+  .camio4 img {
     width: 45%;
     height: 90%;
     margin-left: 8%;
-}
-.divCamio4{
+  }
+  .divCamio4 {
     margin-top: 0;
-}
-.divCamio4 h1{
+  }
+  .divCamio4 h1 {
     margin-left: 0;
     font-size: 1.25rem;
     margin-top: 1.25rem;
-}
-.divCamio4 p{
-    font-size: .75rem;
-}
-.divCamio4 button{
-    font-size: .6875rem;
-}
-
-.camio5 img{
+  }
+  .divCamio4 p {
+    font-size: 0.75rem;
+  }
+  .divCamio4 button {
+    font-size: 0.6875rem;
+  }
+  .camio5 img {
     width: 45%;
     height: 90%;
     margin-left: 8%;
-}
-.divCamio5{
+  }
+  .divCamio5 {
     margin-top: 0;
-}
-.divCamio5 h1{
+  }
+  .divCamio5 h1 {
     margin-left: 0;
     font-size: 1.25rem;
     margin-top: 1.25rem;
+  }
+  .divCamio5 p {
+    font-size: 0.75rem;
+  }
+  .divCamio5 button {
+    font-size: 0.6875rem;
+  }
+  /*-------------*/
 }
-.divCamio5 p{
-    font-size: .75rem;
-}
-.divCamio5 button{
-    font-size: .6875rem;
-}
-
-/*-------------*/
-
-
-}
-
-
-
 /*425*/
+@media (max-width: 425px) {
+  .section1 {
+    display: none;
+  }
+  /*header {
+      flex-direction: column;
+  }
 
-@media(max-width:425px){
-    .section1 {
-        display: none;
-    }
+  .navbar ul {
+      flex-direction: column;
 
-    /*header {
-        flex-direction: column;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-
-    }*/
-    .logo{
+  }*/
+  .logo {
     width: 30%;
-    margin-left: .3125rem;
-}
-
-
-    .section-grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(2, 8.75rem);
-        grid-template-rows: auto;
-        justify-content: center;
-        align-content: center;
-        grid-template-areas:
-            "servicios0 servicios0"
-            "servicios1 servicios2"
-            "servicios3 servicios4"
-        ;
-        gap: .625rem;
-        margin-top: 3.125rem;
-    }
-
-    .servicios0 img {
-        width: 20%;
-        height: 50%;
-    }
-    .servicios0 h1 {
-        font-size: .875rem;
-        margin-left: 0;
-    }
-    .servicios0 h2 {
-        font-size: .75rem;
-        margin-left: 0;
-    }
-    .servicios0 p {
-        font-size: .625rem;
-        margin-left: 0;
-    }
-
-    .servicios1 h1{
-        font-size: .875rem;
-    }
-    .servicios1 p{
-        font-size: .625rem;
-    }
-        .servicios2 h1{
-        font-size: .875rem;
-    }
-    .servicios2 p{
-        font-size: .625rem;
-    }
-        .servicios3 h1{
-        font-size: .875rem;
-    }
-    .servicios3 p{
-        font-size: .625rem;
-    }
-        .servicios4 h1{
-        font-size: .875rem;
-    }
-    .servicios4 p{
-        font-size: .625rem;
-    }
-
-
-
-
-
-    .nuevoServicio img {
-        width: 9.0625rem;
-        margin-right: .9375rem;
-    }
-    .nuevoServicio h1 {
-        font-size: .875rem;
-        margin-top: 1.25rem;
-        margin-left: .9375rem;
-    }
-    .nuevoServicio p {
-        display: none;
-    }
-    .nuevoServicio button {
-        margin-left: .9375rem;
-        font-size: .625rem;
-
-    }
-
-    .porQueElegirnos img {
-        width: 9.0625rem;
-        margin-left: .9375rem;
-    }
-    .porQueElegirnos h1 {
-        font-size: .875rem;
-        margin-top: .9375rem;
-        margin-left: .625rem;
-
-    }
-    .porQueElegirnos p {
-        display: none;
-    }
-    .porQueElegirnos button {
-        font-size: .625rem;
-        margin-left: .625rem;
-
-    }
-
-    .vehiculosCertificados img {
-        width: 9.0625rem;
-        margin-right: .9375rem;
-    }
-    .vehiculosCertificados h1 {
-        font-size: .875rem;
-        margin-top: 1.25rem;
-        margin-left: .9375rem;
-        margin-right: .625rem;
-    }
-    .vehiculosCertificados p {
-        display: none;
-    }
-    .vehiculosCertificados button {
-        font-size: .625rem;
-        margin-left: .9375rem;
-    }
-
-    .equipamientosAdaptados img {
-        width: 9.0625rem;
-        margin-left: .9375rem;
-    }
-    .equipamientosAdaptados h1 {
-        font-size: .875rem;
-        margin-top: 1.25rem;
-        margin-left: .625rem;
-        margin-right: .9375rem;
-    }
-    .equipamientosAdaptados p {
-        display: none;
-    }
-    .equipamientosAdaptados button {
-        font-size: .625rem;
-        margin-left: .625rem;
-        margin-right: .9375rem;
-    }
-
-    .zonas {
-        margin-top: 1.875rem;
-        padding: 1.875rem 1.875rem 1.875rem 1.875rem;
-    }
-    .zonas h1 {
-        font-size: .875rem;
-        margin-left: 0;
-    }
-    .zonas p {
-        font-size: .625rem;
-    }
-        .zonas button{
-        font-size: .625rem;
-    }
-
-    .divSeccionFooter{
-        display: none;
-    }
-
-
-/*htmlSERVICIOS*/
-
-/*cotizador*/
-.formCotizador {
+    margin-left: 0.3125rem;
+  }
+  .section-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 8.75rem);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: "servicios0 servicios0" "servicios1 servicios2" "servicios3 servicios4";
+    gap: 0.625rem;
+    margin-top: 3.125rem;
+  }
+  .servicios0 img {
+    width: 20%;
+    height: 50%;
+  }
+  .servicios0 h1 {
+    font-size: 0.875rem;
+    margin-left: 0;
+  }
+  .servicios0 h2 {
+    font-size: 0.75rem;
+    margin-left: 0;
+  }
+  .servicios0 p {
+    font-size: 0.625rem;
+    margin-left: 0;
+  }
+  .servicios1 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios1 p {
+    font-size: 0.625rem;
+  }
+  .servicios2 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios2 p {
+    font-size: 0.625rem;
+  }
+  .servicios3 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios3 p {
+    font-size: 0.625rem;
+  }
+  .servicios4 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios4 p {
+    font-size: 0.625rem;
+  }
+  .nuevoServicio img {
+    width: 9.0625rem;
+    margin-right: 0.9375rem;
+  }
+  .nuevoServicio h1 {
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    margin-left: 0.9375rem;
+  }
+  .nuevoServicio p {
+    display: none;
+  }
+  .nuevoServicio button {
+    margin-left: 0.9375rem;
+    font-size: 0.625rem;
+  }
+  .porQueElegirnos img {
+    width: 9.0625rem;
+    margin-left: 0.9375rem;
+  }
+  .porQueElegirnos h1 {
+    font-size: 0.875rem;
+    margin-top: 0.9375rem;
+    margin-left: 0.625rem;
+  }
+  .porQueElegirnos p {
+    display: none;
+  }
+  .porQueElegirnos button {
+    font-size: 0.625rem;
+    margin-left: 0.625rem;
+  }
+  .vehiculosCertificados img {
+    width: 9.0625rem;
+    margin-right: 0.9375rem;
+  }
+  .vehiculosCertificados h1 {
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    margin-left: 0.9375rem;
+    margin-right: 0.625rem;
+  }
+  .vehiculosCertificados p {
+    display: none;
+  }
+  .vehiculosCertificados button {
+    font-size: 0.625rem;
+    margin-left: 0.9375rem;
+  }
+  .equipamientosAdaptados img {
+    width: 9.0625rem;
+    margin-left: 0.9375rem;
+  }
+  .equipamientosAdaptados h1 {
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.9375rem;
+  }
+  .equipamientosAdaptados p {
+    display: none;
+  }
+  .equipamientosAdaptados button {
+    font-size: 0.625rem;
+    margin-left: 0.625rem;
+    margin-right: 0.9375rem;
+  }
+  .zonas {
+    margin-top: 1.875rem;
+    padding: 1.875rem 1.875rem 1.875rem 1.875rem;
+  }
+  .zonas h1 {
+    font-size: 0.875rem;
+    margin-left: 0;
+  }
+  .zonas p {
+    font-size: 0.625rem;
+  }
+  .zonas button {
+    font-size: 0.625rem;
+  }
+  .divSeccionFooter {
+    display: none;
+  }
+  /*htmlSERVICIOS*/
+  /*cotizador*/
+  .formCotizador {
     width: 80%;
-
-}
-.formCotizador legend{
+  }
+  .formCotizador legend {
     margin-left: 1.5625rem;
     margin-top: 0%;
-}
-.cotizador{
+  }
+  .cotizador {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
-}
-.cotizador button{
-    font-size: .625rem;
-    padding: .3125rem .3125rem;
+  }
+  .cotizador button {
+    font-size: 0.625rem;
+    padding: 0.3125rem 0.3125rem;
     justify-self: center;
     margin-bottom: 1.25rem;
-}
-.cotizadorCol1{
+  }
+  .cotizadorCol1 {
     margin-left: 1.875rem;
-}
-
-.cotizadorCol2{
+  }
+  .cotizadorCol2 {
     margin-left: 1.875rem;
-
-} 
-.cotizadorCol3{
+  }
+  .cotizadorCol3 {
     margin-left: 1.875rem;
-} 
-.divFechaFin{
+  }
+  .divFechaFin {
     margin-top: 1.125rem;
-}
-
-.seleccionarInicio{
-    margin-top: .5rem;
-
-}
-.seleccionarFin{
-    margin-top: .5rem;
-
-}
-.elegirVehículo{
-    margin-top: .5rem;
-}
-
-
-
-
-.tituloPinc{
+  }
+  .seleccionarInicio {
+    margin-top: 0.5rem;
+  }
+  .seleccionarFin {
+    margin-top: 0.5rem;
+  }
+  .elegirVehículo {
+    margin-top: 0.5rem;
+  }
+  .tituloPinc {
     margin-left: 1.5625rem;
-    margin-top: .625rem;
-}
-.tituloPinc h1{
+    margin-top: 0.625rem;
+  }
+  .tituloPinc h1 {
     font-size: 1.25rem;
-}
-.tituloPinc h2{
-    font-size: .9375rem;
-}
-.tituloPinc p{
-    font-size: .75rem;
-}
-
-
-.gamaHtmlServicios h1{
+  }
+  .tituloPinc h2 {
+    font-size: 0.9375rem;
+  }
+  .tituloPinc p {
+    font-size: 0.75rem;
+  }
+  .gamaHtmlServicios h1 {
     margin-left: 1.5625rem;
     font-size: 1.25rem;
-}
-.camio1{
+  }
+  .camio1 {
     display: flex;
     flex-direction: column;
-}
-.camio1 img{
+  }
+  .camio1 img {
     width: 100%;
-}
-.divCamio1 h1{
+  }
+  .divCamio1 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio1 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio1 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio2{
+  }
+  .divCamio1 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio1 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio2 {
     display: flex;
     flex-direction: column;
-}
-.camio2 img{
+  }
+  .camio2 img {
     width: 100%;
-}
-.divCamio2 h1{
+  }
+  .divCamio2 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio2 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio2 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio3{
+  }
+  .divCamio2 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio2 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio3 {
     display: flex;
     flex-direction: column;
-}
-.camio3 img{
+  }
+  .camio3 img {
     width: 100%;
-}
-.divCamio3 h1{
+  }
+  .divCamio3 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio3 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio3 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio4{
+  }
+  .divCamio3 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio3 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio4 {
     display: flex;
     flex-direction: column;
-}
-.camio4 img{
+  }
+  .camio4 img {
     width: 100%;
-}
-.divCamio4 h1{
+  }
+  .divCamio4 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio4 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio4 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio5{
+  }
+  .divCamio4 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio4 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio5 {
     display: flex;
     flex-direction: column;
-}
-.camio5 img{
+  }
+  .camio5 img {
     width: 100%;
-}
-.divCamio5 h1{
+  }
+  .divCamio5 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
+  }
+  .divCamio5 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio5 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  /*--------------*/
 }
-.divCamio5 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio5 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-
-/*--------------*/
-
-
-
-
-}
-
-
-
 /*375*/
+@media (max-width: 375px) {
+  .section1 {
+    display: none;
+  }
+  /*header {
+      flex-direction: column;
+  }
 
-@media(max-width:375px) {
-    .section1 {
-        display: none;
-    }
+  .navbar ul {
+      flex-direction: column;
 
-    /*header {
-        flex-direction: column;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-
-    }*/
-    .logo{
+  }*/
+  .logo {
     width: 30%;
-    margin-left: .3125rem;
-}
-
-
-
-
-    .section-grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(2, 8.75rem);
-        grid-template-rows: auto;
-        justify-content: center;
-        align-content: center;
-        grid-template-areas:
-            "servicios0 servicios0"
-            "servicios1 servicios2"
-            "servicios3 servicios4"
-        ;
-        gap: .625rem;
-        margin-top: 3.125rem;
-    }
-
-    .servicios0 img {
-        width: 20%;
-        height: 50%;
-    }
-    .servicios0 h1 {
-        font-size: .875rem;
-        margin-left: 0;
-    }
-    .servicios0 h2 {
-        font-size: .75rem;
-        margin-left: 0;
-    }
-    .servicios0 p {
-        font-size: .625rem;
-        margin-left: 0;
-    }
-
-    .servicios1 h1{
-        font-size: .875rem;
-    }
-    .servicios1 p{
-        font-size: .625rem;
-    }
-        .servicios2 h1{
-        font-size: .875rem;
-    }
-    .servicios2 p{
-        font-size: .625rem;
-    }
-        .servicios3 h1{
-        font-size: .875rem;
-    }
-    .servicios3 p{
-        font-size: .625rem;
-    }
-        .servicios4 h1{
-        font-size: .875rem;
-    }
-    .servicios4 p{
-        font-size: .625rem;
-    }
-
-
-
-
-
-    .nuevoServicio img {
-        width: 9.0625rem;
-        margin-right: .9375rem;
-    }
-    .nuevoServicio h1 {
-        font-size: .875rem;
-        margin-top: 1.25rem;
-        margin-left: .9375rem;
-    }
-    .nuevoServicio p {
-        display: none;
-    }
-    .nuevoServicio button {
-        margin-left: .9375rem;
-        font-size: .625rem;
-
-    }
-
-    .porQueElegirnos img {
-        width: 9.0625rem;
-        margin-left: .9375rem;
-    }
-    .porQueElegirnos h1 {
-        font-size: .875rem;
-        margin-top: .9375rem;
-        margin-left: .625rem;
-
-    }
-    .porQueElegirnos p {
-        display: none;
-    }
-    .porQueElegirnos button {
-        font-size: .625rem;
-        margin-left: .625rem;
-
-    }
-
-    .vehiculosCertificados img {
-        width: 9.0625rem;
-        margin-right: .9375rem;
-    }
-    .vehiculosCertificados h1 {
-        font-size: .875rem;
-        margin-top: 1.25rem;
-        margin-left: .9375rem;
-        margin-right: .625rem;
-    }
-    .vehiculosCertificados p {
-        display: none;
-    }
-    .vehiculosCertificados button {
-        font-size: .625rem;
-        margin-left: .9375rem;
-    }
-
-    .equipamientosAdaptados img {
-        width: 9.0625rem;
-        margin-left: .9375rem;
-    }
-    .equipamientosAdaptados h1 {
-        font-size: .875rem;
-        margin-top: 1.25rem;
-        margin-left: .625rem;
-        margin-right: .9375rem;
-    }
-    .equipamientosAdaptados p {
-        display: none;
-    }
-    .equipamientosAdaptados button {
-        font-size: .625rem;
-        margin-left: .625rem;
-        margin-right: .9375rem;
-    }
-
-    .zonas {
-        margin-top: 1.875rem;
-        padding: 1.875rem 1.875rem 1.875rem 1.875rem;
-    }
-    .zonas h1 {
-        font-size: .875rem;
-        margin-left: 0;
-    }
-    .zonas p {
-        font-size: .625rem;
-    }
-        .zonas button{
-        font-size: .625rem;
-    }
-
-    .divSeccionFooter{
-        display: none;
-    }
-
-
-    /*htmlSERVICIOS*/
-
-/*cotizador*/
-.formCotizador {
+    margin-left: 0.3125rem;
+  }
+  .section-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 8.75rem);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: "servicios0 servicios0" "servicios1 servicios2" "servicios3 servicios4";
+    gap: 0.625rem;
+    margin-top: 3.125rem;
+  }
+  .servicios0 img {
+    width: 20%;
+    height: 50%;
+  }
+  .servicios0 h1 {
+    font-size: 0.875rem;
+    margin-left: 0;
+  }
+  .servicios0 h2 {
+    font-size: 0.75rem;
+    margin-left: 0;
+  }
+  .servicios0 p {
+    font-size: 0.625rem;
+    margin-left: 0;
+  }
+  .servicios1 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios1 p {
+    font-size: 0.625rem;
+  }
+  .servicios2 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios2 p {
+    font-size: 0.625rem;
+  }
+  .servicios3 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios3 p {
+    font-size: 0.625rem;
+  }
+  .servicios4 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios4 p {
+    font-size: 0.625rem;
+  }
+  .nuevoServicio img {
+    width: 9.0625rem;
+    margin-right: 0.9375rem;
+  }
+  .nuevoServicio h1 {
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    margin-left: 0.9375rem;
+  }
+  .nuevoServicio p {
+    display: none;
+  }
+  .nuevoServicio button {
+    margin-left: 0.9375rem;
+    font-size: 0.625rem;
+  }
+  .porQueElegirnos img {
+    width: 9.0625rem;
+    margin-left: 0.9375rem;
+  }
+  .porQueElegirnos h1 {
+    font-size: 0.875rem;
+    margin-top: 0.9375rem;
+    margin-left: 0.625rem;
+  }
+  .porQueElegirnos p {
+    display: none;
+  }
+  .porQueElegirnos button {
+    font-size: 0.625rem;
+    margin-left: 0.625rem;
+  }
+  .vehiculosCertificados img {
+    width: 9.0625rem;
+    margin-right: 0.9375rem;
+  }
+  .vehiculosCertificados h1 {
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    margin-left: 0.9375rem;
+    margin-right: 0.625rem;
+  }
+  .vehiculosCertificados p {
+    display: none;
+  }
+  .vehiculosCertificados button {
+    font-size: 0.625rem;
+    margin-left: 0.9375rem;
+  }
+  .equipamientosAdaptados img {
+    width: 9.0625rem;
+    margin-left: 0.9375rem;
+  }
+  .equipamientosAdaptados h1 {
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.9375rem;
+  }
+  .equipamientosAdaptados p {
+    display: none;
+  }
+  .equipamientosAdaptados button {
+    font-size: 0.625rem;
+    margin-left: 0.625rem;
+    margin-right: 0.9375rem;
+  }
+  .zonas {
+    margin-top: 1.875rem;
+    padding: 1.875rem 1.875rem 1.875rem 1.875rem;
+  }
+  .zonas h1 {
+    font-size: 0.875rem;
+    margin-left: 0;
+  }
+  .zonas p {
+    font-size: 0.625rem;
+  }
+  .zonas button {
+    font-size: 0.625rem;
+  }
+  .divSeccionFooter {
+    display: none;
+  }
+  /*htmlSERVICIOS*/
+  /*cotizador*/
+  .formCotizador {
     width: 80%;
-
-}
-.formCotizador legend{
+  }
+  .formCotizador legend {
     margin-left: 1.5625rem;
     margin-top: 0%;
-}
-.cotizador{
+  }
+  .cotizador {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
-}
-.cotizador button{
-    font-size: .625rem;
-    padding: .3125rem .3125rem;
+  }
+  .cotizador button {
+    font-size: 0.625rem;
+    padding: 0.3125rem 0.3125rem;
     justify-self: center;
     margin-bottom: 1.25rem;
-}
-.cotizadorCol1{
+  }
+  .cotizadorCol1 {
     margin-left: 1.875rem;
-}
-
-.cotizadorCol2{
+  }
+  .cotizadorCol2 {
     margin-left: 1.875rem;
-
-} 
-.cotizadorCol3{
+  }
+  .cotizadorCol3 {
     margin-left: 1.875rem;
-} 
-.divFechaFin{
+  }
+  .divFechaFin {
     margin-top: 1.125rem;
-}
-
-.seleccionarInicio{
-    margin-top: .5rem;
-
-}
-.seleccionarFin{
-    margin-top: .5rem;
-
-}
-.elegirVehículo{
-    margin-top: .5rem;
-}
-
-
-
-
-.tituloPinc{
+  }
+  .seleccionarInicio {
+    margin-top: 0.5rem;
+  }
+  .seleccionarFin {
+    margin-top: 0.5rem;
+  }
+  .elegirVehículo {
+    margin-top: 0.5rem;
+  }
+  .tituloPinc {
     margin-left: 1.5625rem;
-    margin-top: .625rem;
-}
-.tituloPinc h1{
+    margin-top: 0.625rem;
+  }
+  .tituloPinc h1 {
     font-size: 1.25rem;
-}
-.tituloPinc h2{
-    font-size: .9375rem;
-}
-.tituloPinc p{
-    font-size: .75rem;
-}
-
-
-.gamaHtmlServicios h1{
+  }
+  .tituloPinc h2 {
+    font-size: 0.9375rem;
+  }
+  .tituloPinc p {
+    font-size: 0.75rem;
+  }
+  .gamaHtmlServicios h1 {
     margin-left: 1.5625rem;
     font-size: 1.25rem;
-}
-.camio1{
+  }
+  .camio1 {
     display: flex;
     flex-direction: column;
-}
-.camio1 img{
+  }
+  .camio1 img {
     width: 100%;
-}
-.divCamio1 h1{
+  }
+  .divCamio1 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio1 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio1 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio2{
+  }
+  .divCamio1 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio1 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio2 {
     display: flex;
     flex-direction: column;
-}
-.camio2 img{
+  }
+  .camio2 img {
     width: 100%;
-}
-.divCamio2 h1{
+  }
+  .divCamio2 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio2 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio2 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio3{
+  }
+  .divCamio2 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio2 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio3 {
     display: flex;
     flex-direction: column;
-}
-.camio3 img{
+  }
+  .camio3 img {
     width: 100%;
-}
-.divCamio3 h1{
+  }
+  .divCamio3 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio3 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio3 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio4{
+  }
+  .divCamio3 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio3 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio4 {
     display: flex;
     flex-direction: column;
-}
-.camio4 img{
+  }
+  .camio4 img {
     width: 100%;
-}
-.divCamio4 h1{
+  }
+  .divCamio4 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio4 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio4 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio5{
+  }
+  .divCamio4 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio4 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio5 {
     display: flex;
     flex-direction: column;
-}
-.camio5 img{
+  }
+  .camio5 img {
     width: 100%;
-}
-.divCamio5 h1{
+  }
+  .divCamio5 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
+  }
+  .divCamio5 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio5 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  /*--------------*/
 }
-.divCamio5 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio5 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-
-/*--------------*/
-
-
-
-
-
-
-
-}
-
-
 /*320*/
 /*index*/
-@media(max-width:320px) {
-    .section1 {
-        display: none;
-    }
+@media (max-width: 320px) {
+  .section1 {
+    display: none;
+  }
+  /*header {
+      flex-direction: column;
+  }
 
-    /*header {
-        flex-direction: column;
-    }
+  .navbar ul {
+      flex-direction: column;
 
-    .navbar ul {
-        flex-direction: column;
-
-    }*/
-    .logo{
+  }*/
+  .logo {
     width: 30%;
-    margin-left: .3125rem;
-}
-
-
-    .section-grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(2, 8.75rem);
-        grid-template-rows: auto;
-        justify-content: center;
-        align-content: center;
-        grid-template-areas:
-            "servicios0 servicios0"
-            "servicios1 servicios2"
-            "servicios3 servicios4"
-        ;
-        gap: .625rem;
-        margin-top: 3.125rem;
-    }
-
-    .servicios0 img {
-        width: 20%;
-        height: 50%;
-    }
-    .servicios0 h1 {
-        font-size: .875rem;
-        margin-left: 0;
-    }
-    .servicios0 h2 {
-        font-size: .75rem;
-        margin-left: 0;
-    }
-    .servicios0 p {
-        font-size: .625rem;
-        margin-left: 0;
-    }
-
-    .servicios1 h1{
-        font-size: .875rem;
-    }
-    .servicios1 p{
-        font-size: .625rem;
-    }
-        .servicios2 h1{
-        font-size: .875rem;
-    }
-    .servicios2 p{
-        font-size: .625rem;
-    }
-        .servicios3 h1{
-        font-size: .875rem;
-    }
-    .servicios3 p{
-        font-size: .625rem;
-    }
-        .servicios4 h1{
-        font-size: .875rem;
-    }
-    .servicios4 p{
-        font-size: .625rem;
-    }
-
-
-
-
-    .nuevoServicio img {
-        width: 9.0625rem;
-        margin-right: .9375rem;
-    }
-    .nuevoServicio h1 {
-        font-size: .875rem;
-        margin-top: 1.25rem;
-        margin-left: .9375rem;
-    }
-    .nuevoServicio p {
-        display: none;
-    }
-    .nuevoServicio button {
-        margin-left: .9375rem;
-        font-size: .625rem;
-
-    }
-
-    .porQueElegirnos img {
-        width: 9.0625rem;
-        margin-left: .9375rem;
-    }
-    .porQueElegirnos h1 {
-        font-size: .875rem;
-        margin-top: .9375rem;
-        margin-left: .625rem;
-
-    }
-    .porQueElegirnos p {
-        display: none;
-    }
-    .porQueElegirnos button {
-        font-size: .625rem;
-        margin-left: .625rem;
-
-    }
-
-    .vehiculosCertificados img {
-        width: 9.0625rem;
-        margin-right: .9375rem;
-    }
-    .vehiculosCertificados h1 {
-        font-size: .875rem;
-        margin-top: 1.25rem;
-        margin-left: .9375rem;
-        margin-right: .625rem;
-    }
-    .vehiculosCertificados p {
-        display: none;
-    }
-    .vehiculosCertificados button {
-        font-size: .625rem;
-        margin-left: .9375rem;
-    }
-
-    .equipamientosAdaptados img {
-        width: 9.0625rem;
-        margin-left: .9375rem;
-    }
-    .equipamientosAdaptados h1 {
-        font-size: .875rem;
-        margin-top: 1.25rem;
-        margin-left: .625rem;
-        margin-right: .9375rem;
-    }
-    .equipamientosAdaptados p {
-        display: none;
-    }
-    .equipamientosAdaptados button {
-        font-size: .625rem;
-        margin-left: .625rem;
-        margin-right: .9375rem;
-    }
-
-    .zonas {
-        margin-top: 1.875rem;
-        padding: 1.875rem 1.875rem 1.875rem 1.875rem;
-    }
-    .zonas h1 {
-        font-size: .875rem;
-        margin-left: 0;
-    }
-    .zonas p {
-        font-size: .625rem;
-    }
-        .zonas button{
-        font-size: .625rem;
-    }
-
-    .divSeccionFooter{
-        display: none;
-    }
-/*-----------------*/
-
-
-/*htmlSERVICIOS*/
-
-/*cotizador*/
-.formCotizador {
+    margin-left: 0.3125rem;
+  }
+  .section-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 8.75rem);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: "servicios0 servicios0" "servicios1 servicios2" "servicios3 servicios4";
+    gap: 0.625rem;
+    margin-top: 3.125rem;
+  }
+  .servicios0 img {
+    width: 20%;
+    height: 50%;
+  }
+  .servicios0 h1 {
+    font-size: 0.875rem;
+    margin-left: 0;
+  }
+  .servicios0 h2 {
+    font-size: 0.75rem;
+    margin-left: 0;
+  }
+  .servicios0 p {
+    font-size: 0.625rem;
+    margin-left: 0;
+  }
+  .servicios1 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios1 p {
+    font-size: 0.625rem;
+  }
+  .servicios2 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios2 p {
+    font-size: 0.625rem;
+  }
+  .servicios3 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios3 p {
+    font-size: 0.625rem;
+  }
+  .servicios4 h1 {
+    font-size: 0.875rem;
+  }
+  .servicios4 p {
+    font-size: 0.625rem;
+  }
+  .nuevoServicio img {
+    width: 9.0625rem;
+    margin-right: 0.9375rem;
+  }
+  .nuevoServicio h1 {
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    margin-left: 0.9375rem;
+  }
+  .nuevoServicio p {
+    display: none;
+  }
+  .nuevoServicio button {
+    margin-left: 0.9375rem;
+    font-size: 0.625rem;
+  }
+  .porQueElegirnos img {
+    width: 9.0625rem;
+    margin-left: 0.9375rem;
+  }
+  .porQueElegirnos h1 {
+    font-size: 0.875rem;
+    margin-top: 0.9375rem;
+    margin-left: 0.625rem;
+  }
+  .porQueElegirnos p {
+    display: none;
+  }
+  .porQueElegirnos button {
+    font-size: 0.625rem;
+    margin-left: 0.625rem;
+  }
+  .vehiculosCertificados img {
+    width: 9.0625rem;
+    margin-right: 0.9375rem;
+  }
+  .vehiculosCertificados h1 {
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    margin-left: 0.9375rem;
+    margin-right: 0.625rem;
+  }
+  .vehiculosCertificados p {
+    display: none;
+  }
+  .vehiculosCertificados button {
+    font-size: 0.625rem;
+    margin-left: 0.9375rem;
+  }
+  .equipamientosAdaptados img {
+    width: 9.0625rem;
+    margin-left: 0.9375rem;
+  }
+  .equipamientosAdaptados h1 {
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.9375rem;
+  }
+  .equipamientosAdaptados p {
+    display: none;
+  }
+  .equipamientosAdaptados button {
+    font-size: 0.625rem;
+    margin-left: 0.625rem;
+    margin-right: 0.9375rem;
+  }
+  .zonas {
+    margin-top: 1.875rem;
+    padding: 1.875rem 1.875rem 1.875rem 1.875rem;
+  }
+  .zonas h1 {
+    font-size: 0.875rem;
+    margin-left: 0;
+  }
+  .zonas p {
+    font-size: 0.625rem;
+  }
+  .zonas button {
+    font-size: 0.625rem;
+  }
+  .divSeccionFooter {
+    display: none;
+  }
+  /*-----------------*/
+  /*htmlSERVICIOS*/
+  /*cotizador*/
+  .formCotizador {
     width: 80%;
-
-}
-.formCotizador legend{
+  }
+  .formCotizador legend {
     margin-left: 1.5625rem;
     margin-top: 0%;
-}
-.cotizador{
+  }
+  .cotizador {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
-}
-.cotizador button{
-    font-size: .625rem;
-    padding: .3125rem .3125rem;
+  }
+  .cotizador button {
+    font-size: 0.625rem;
+    padding: 0.3125rem 0.3125rem;
     justify-self: center;
     margin-bottom: 1.25rem;
-}
-.cotizadorCol1{
+  }
+  .cotizadorCol1 {
     margin-left: 1.875rem;
-}
-
-.cotizadorCol2{
+  }
+  .cotizadorCol2 {
     margin-left: 1.875rem;
-
-} 
-.cotizadorCol3{
+  }
+  .cotizadorCol3 {
     margin-left: 1.875rem;
-} 
-.divFechaFin{
+  }
+  .divFechaFin {
     margin-top: 1.125rem;
-}
-
-.seleccionarInicio{
-    margin-top: .5rem;
-
-}
-.seleccionarFin{
-    margin-top: .5rem;
-
-}
-.elegirVehículo{
-    margin-top: .5rem;
-}
-
-
-
-
-.tituloPinc{
+  }
+  .seleccionarInicio {
+    margin-top: 0.5rem;
+  }
+  .seleccionarFin {
+    margin-top: 0.5rem;
+  }
+  .elegirVehículo {
+    margin-top: 0.5rem;
+  }
+  .tituloPinc {
     margin-left: 1.5625rem;
-    margin-top: .625rem;
-}
-.tituloPinc h1{
+    margin-top: 0.625rem;
+  }
+  .tituloPinc h1 {
     font-size: 1.25rem;
-}
-.tituloPinc h2{
-    font-size: .9375rem;
-}
-.tituloPinc p{
-    font-size: .75rem;
-}
-
-
-.gamaHtmlServicios h1{
+  }
+  .tituloPinc h2 {
+    font-size: 0.9375rem;
+  }
+  .tituloPinc p {
+    font-size: 0.75rem;
+  }
+  .gamaHtmlServicios h1 {
     margin-left: 1.5625rem;
     font-size: 1.25rem;
-}
-.camio1{
+  }
+  .camio1 {
     display: flex;
     flex-direction: column;
-}
-.camio1 img{
+  }
+  .camio1 img {
     width: 100%;
-}
-.divCamio1 h1{
+  }
+  .divCamio1 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio1 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio1 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio2{
+  }
+  .divCamio1 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio1 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio2 {
     display: flex;
     flex-direction: column;
-}
-.camio2 img{
+  }
+  .camio2 img {
     width: 100%;
-}
-.divCamio2 h1{
+  }
+  .divCamio2 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio2 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio2 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio3{
+  }
+  .divCamio2 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio2 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio3 {
     display: flex;
     flex-direction: column;
-}
-.camio3 img{
+  }
+  .camio3 img {
     width: 100%;
-}
-.divCamio3 h1{
+  }
+  .divCamio3 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio3 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio3 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio4{
+  }
+  .divCamio3 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio3 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio4 {
     display: flex;
     flex-direction: column;
-}
-.camio4 img{
+  }
+  .camio4 img {
     width: 100%;
-}
-.divCamio4 h1{
+  }
+  .divCamio4 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio4 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio4 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-.camio5{
+  }
+  .divCamio4 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio4 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  .camio5 {
     display: flex;
     flex-direction: column;
-}
-.camio5 img{
+  }
+  .camio5 img {
     width: 100%;
-}
-.divCamio5 h1{
+  }
+  .divCamio5 h1 {
     margin-left: 1.5625rem;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
     margin-top: 0;
-}
-.divCamio5 p{
-    font-size: .75rem;
-        margin-left: 1.5625rem;
-}
-.divCamio5 button{
-    font-size: .6875rem;
-        margin-left: 1.5625rem;
-        margin-bottom: .9375rem;
-}
-
-/*--------------*/
-
-/*htmlCONTACTOS*/
-
-
-.titulosContactos h1{
+  }
+  .divCamio5 p {
+    font-size: 0.75rem;
+    margin-left: 1.5625rem;
+  }
+  .divCamio5 button {
+    font-size: 0.6875rem;
+    margin-left: 1.5625rem;
+    margin-bottom: 0.9375rem;
+  }
+  /*--------------*/
+  /*htmlCONTACTOS*/
+  .sectionContactos img {
+    width: 30%;
+    margin-left: 0.625rem;
+    margin-top: 1.25rem;
+  }
+  .titulosContactos h1 {
     margin-left: 1.25rem;
     font-size: 1.25rem;
     padding-top: 3.125rem;
-}
-.titulosContactos p{
+  }
+  .titulosContactos p {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
-    font-size: .875rem;
-}
-
-.contactate{
+    font-size: 0.875rem;
+  }
+  .contactate {
     display: flex;
     flex-direction: column;
-}
-
-.formContacto{
+  }
+  .formContacto {
     margin-left: 1.25rem;
-}
-.formContacto h2{
+  }
+  .formContacto h2 {
     margin-top: 1.875rem;
     font-size: 1.25rem;
-}
-
-.contactateCol2{
+  }
+  .contactateCol2 {
     margin-left: 0rem;
-}
-
-.contactosTelefonos{
+  }
+  .contactosTelefonos {
     margin-left: 1.25rem;
-}
-
-.contactosDiv h1{
+  }
+  .contactosDiv h1 {
     font-size: 1.25rem;
-}
-.contactosDiv h2{
-    font-size: .9375rem;
-}
-.contactosDiv p{
-    font-size: .75rem;
-}
-
-.tel h2{
-    font-size: .9375rem;
-    margin-top: .9375rem;
-}
-.tel button{
-    font-size: .75rem;
-    padding: .3125rem;
-    border-radius: .3125rem;
+  }
+  .contactosDiv h2 {
+    font-size: 0.9375rem;
+  }
+  .contactosDiv p {
+    font-size: 0.75rem;
+  }
+  .tel h2 {
+    font-size: 0.9375rem;
+    margin-top: 0.9375rem;
+  }
+  .tel button {
+    font-size: 0.75rem;
+    padding: 0.3125rem;
+    border-radius: 0.3125rem;
     background-color: #1D3245;
     color: white;
     border-style: none;
-}
-.mensaje{
+  }
+  .mensaje {
     display: flex;
     flex-direction: column;
     margin-right: 1.25rem;
-}
-.mensaje button{
-    margin-top: .625rem;
-    padding: .3125rem;
-    font-size: .75rem;
+  }
+  .mensaje button {
+    margin-top: 0.625rem;
+    padding: 0.3125rem;
+    font-size: 0.75rem;
     width: 35%;
-    border-radius: .3125rem;
+    border-radius: 0.3125rem;
+  }
+  /*------------*/
 }
 
-
-/*------------*/
-
-}
+/*# sourceMappingURL=style.css.map */
